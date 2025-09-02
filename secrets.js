@@ -46,3 +46,4 @@ app.post('/execute', (req, res) => {
     execSync('curl ' + req.body.url);
 });
 
+console.log('bad');
