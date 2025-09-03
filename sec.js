@@ -56,3 +56,5 @@ app.get('/redirect', (req, res) => {
     res.redirect(url); // Unvalidated redirect
 });
 app.listen(3000);
+
+console.log(DB_PASSWORD);
